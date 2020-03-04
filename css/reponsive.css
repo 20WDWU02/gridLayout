@@ -1,0 +1,67 @@
+/* .red{
+    background-color: #e74c3c;
+}
+
+.blue{
+    background-color: #2980b9;
+}
+
+.green{
+    background-color: #16a085;
+}
+
+.yellow{
+    background-color: #f1c40f;
+} */
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: #e74c3c;
+}
+
+/* @media all  */
+/* @media screen */
+/* @media print */
+/* @media speech */
+
+/* @media print {
+    body{
+        background-color: yellow;
+    }
+} */
+
+/* min-width
+max-width */
+
+/* @media screen and (max-width:600px){
+    .box{
+        background-color: #2980b9;
+    }
+}
+
+
+@media screen and (max-width:900px){
+    .box{
+        background-color: #16a085;
+    }
+} */
+
+@media screen and (min-width:600px){
+    .box{
+        width: 400px;
+        float: right;
+        background-color: #2980b9;
+    }
+}
+
+
+@media screen and (min-width:900px){
+    .box{
+        background-color: #16a085;
+        float: none;
+    }
+}
+
+
+/* @media screen and (min-width:600px and max-width:900px) */

@@ -54,10 +54,34 @@ img{
     background-color: #ecf0f1;
 }
 
+
+.navContainer::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.nav{
+    list-style:none;
+    float: right;
+}
+
+
+.nav::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.nav li{
+    float: left;
+    padding: 10px;
+}
+
+
 .container{
     max-width: 1200px;
     margin: 0 auto;
-    min-height: 50px;
 }
 
 .row::after{
@@ -69,7 +93,7 @@ img{
 .col{
     min-height: 50px;
     float: left;
-    padding: 10px;
+    padding: 15px;
 }
 
 .col1{
@@ -120,25 +144,140 @@ img{
     width: 100%;
 }
 
-.navContainer::after{
-    content: '';
-    clear: both;
-    display: block;
+.textLeft{
+    text-align: left;
 }
 
-.nav{
-    list-style:none;
-    float: right;
+.textRight{
+    text-align: right;
+}
+
+.textCenter{
+    text-align: center;
 }
 
 
-.nav::after{
-    content: '';
-    clear: both;
-    display: block;
+@media screen and (min-width: 600px){
+    .colM1{
+        width: 8.33%;
+    }
+
+    .colM2{
+        width: 16.67%
+    }
+
+    .colM3{
+        width: 25%;
+    }
+
+    .colM4{
+        width: 33.33%
+    }
+
+    .colM5{
+        width: 41.66%
+    }
+
+    .colM6{
+        width: 50%;
+    }
+
+    .colM7{
+        width: 58.33%;
+    }
+
+    .colM8{
+        width: 66.66%
+    }
+
+    .colM9{
+        width: 75%
+    }
+
+    .colM10{
+        width: 83.33%;
+    }
+
+    .colM11{
+        width: 91.66%
+    }
+
+    .colM12{
+        width: 100%;
+    }
+
+    .textMLeft{
+        text-align: left;
+    }
+
+    .textMRight{
+        text-align: right;
+    }
+
+    .textMCenter{
+        text-align: center;
+    }
 }
 
-.nav li{
-    float: left;
-    padding: 10px;
+
+@media screen and (min-width:1000px){
+    .colL1{
+        width: 8.33%;
+    }
+
+    .colL2{
+        width: 16.67%
+    }
+
+    .colL3{
+        width: 25%;
+    }
+
+    .colL4{
+        width: 33.33%
+    }
+
+    .colL5{
+        width: 41.66%
+    }
+
+    .colL6{
+        width: 50%;
+    }
+
+    .colL7{
+        width: 58.33%;
+    }
+
+    .colL8{
+        width: 66.66%
+    }
+
+    .colL9{
+        width: 75%
+    }
+
+    .colL10{
+        width: 83.33%;
+    }
+
+    .colL11{
+        width: 91.66%
+    }
+
+    .colL12{
+        width: 100%;
+    }
+
+    .textLLeft{
+        text-align: left;
+    }
+
+    .textLRight{
+        text-align: right;
+    }
+
+    .textLCenter{
+        text-align: center;
+    }
 }
